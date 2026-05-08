@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# Calm — Accessibility-Focused Social Media Platform
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Calm is a mobile social media application built for neurodivergent users, developed as my final-year BSc Computer Science dissertation at Middlesex University London. The core idea came from a gap I kept noticing — most social platforms are not designed with accessibility in mind from the ground up. Calm is.
 
-## Get started
+---
 
-1. Install dependencies
+## What makes it different
 
-   ```bash
-   npm install
-   ```
+Most accessibility features in apps are bolted on as an afterthought. Calm was built around them from the start. Every design decision — from the onboarding flow to how content is displayed — was shaped by research into the specific needs of neurodivergent users.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Accessibility features
 
-In the output, you'll find options to open the app in a
+- Read-aloud with adjustable playback speed, so users can listen to posts rather than read them
+- Dyslexia-friendly text rendering with customisable font and spacing controls
+- Finite scrolling to reduce overstimulation and encourage intentional use
+- Visual safety filter to screen potentially distressing content
+- Batched notifications to minimise interruption
+- Intention-setting onboarding to help users engage on their own terms
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+The app meets WCAG 2.1 AA accessibility standards, validated through structured usability testing with target users.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Built with
 
-When you're ready, run:
+- React Native
+- Expo / Expo Go
+- JavaScript
+
+---
+
+## Running the project
 
 ```bash
-npm run reset-project
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Scan the QR code with Expo Go on your phone to run it locally.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## Dissertation
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Designed and developed end-to-end as part of my BSc dissertation — covering user research, system architecture, iterative prototyping in Figma, and accessibility evaluation using Nielsen's 10 heuristics.
